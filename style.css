@@ -129,10 +129,13 @@ a {
   flex: 1;
 }
 
-/* @media all and (max-width: 550px) {
+@media all and (max-width: 550px) {
   .fa-circle-o {
     position: absolute;
     left: 43%;
     top: 74%;
   }
-} */
+  
+  .container {
+    height: 50vh; 
+}
