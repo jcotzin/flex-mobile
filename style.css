@@ -1,0 +1,40 @@
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: sans-serif;
+  font-size: 15px;
+  background-image: url("https://s-media-cache-ak0.pinimg.com/originals/ba/45/c4/ba45c4654dfbf25649ce009e99c8dcca.jpg");
+  background-position: center;
+  background-size: cover;
+  /*overflow-y: hidden;*/
+}
+.container {
+  max-width: 400px;
+  height: 75vh;
+  margin: 10vh auto;
+  border: 10px solid #F1156D;
+  border-radius: 10px;
+  border-bottom: 70px solid #F1156D;
+}
+
+.header {
+  background: #F8D2DD;
+}
+
+.content {
+  background: white;
+  padding: 20px;
+  line-height: 1.5;
+  overflow-y: scroll;
+  -webkit-overflow-scrolling: touch;
+}
+
+.icon-menu {
+  background: #F8D2DD;
+}
