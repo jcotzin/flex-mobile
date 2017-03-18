@@ -8,28 +8,44 @@ html {
 
 body {
   font-family: sans-serif;
-  font-size: 15px;
+  font-size: 12px;
   background-image: url("https://s-media-cache-ak0.pinimg.com/originals/ba/45/c4/ba45c4654dfbf25649ce009e99c8dcca.jpg");
   background-position: center;
   background-size: cover;
-  /*overflow-y: hidden;*/
 }
+
+img, .img2 {
+  width: 45%;
+  float: left;
+  padding: 0 10px;
+}
+
+.img2 {
+  width: 55%;
+  float: right;
+  padding: 3px 10px;
+}
+
 .container {
-  max-width: 400px;
+  max-width: 350px;
   height: 75vh;
   margin: 10vh auto;
-  border: 10px solid #F1156D;
+  border: 13px solid #141414;
   border-radius: 10px;
-  border-bottom: 70px solid #F1156D;
+  border-bottom: 74px solid #141414;
 }
 
 .header {
+  padding: 8px 5px;
   background: #F8D2DD;
+  color:rgba(0,0,0,0.5);
 }
 
 .content {
+  box-shadow: inset 0 5px 0 rgba(0,0,0,0.1);
+  display: inline-block;
   background: white;
-  padding: 20px;
+  padding: 22px;
   line-height: 1.5;
   overflow-y: scroll;
   -webkit-overflow-scrolling: touch;
@@ -37,4 +53,79 @@ body {
 
 .icon-menu {
   background: #F8D2DD;
+  border-top:1px solid #E6E6E6;
+}
+
+.icon-menu a {
+  text-align: center;
+  color:rgba(0,0,0,0.5);
+  border-left: 1px solid rgba(0,0,0,0.1);
+  padding: 8px;
+}
+
+.icon-menu a:first-child {
+  border-left: none;
+}
+
+.icon-menu a:first-child, a:hover {
+  background:rgba(0,0,0,0.1);
+}
+
+.icon-menu i {
+  display: block;
+  font-size: 18px;
+  padding: 5px;
+}
+
+a.button {
+  background: rgba(0,0,0,0.1);
+  border-radius: 5px;
+  padding: 7px;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+.fa-circle-o {
+  font-size: 55px !important;
+  position: absolute;
+  left: 48.5%;
+  top: 76.5%;
+}
+
+/*flexing!!!!!!*/
+
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  flex: 1 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.content {
+  flex: 1 1 auto;
+}
+
+.icon-menu {
+  flex: 1 0 auto;
+  display: flex;
+}
+
+.icon-menu a {
+  flex: 1;
+}
+
+@media all and (max-width: 550px) {
+  .fa-circle-o {
+    position: absolute;
+    left: 43%;
+    top: 74%;
+  }
 }
