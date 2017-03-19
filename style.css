@@ -12,6 +12,7 @@ body {
   font-size: 12px;
   background-image: url("https://s-media-cache-ak0.pinimg.com/originals/ba/45/c4/ba45c4654dfbf25649ce009e99c8dcca.jpg");
   background-position: center;
+  background-attachment: fixed;
   background-size: cover;
 }
 
