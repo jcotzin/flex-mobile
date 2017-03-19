@@ -135,4 +135,10 @@ a {
     left: 43%;
     top: 74%;
   }
+  
+    .container {
+    max-width: 350px;
+    height: 38vh;
+    margin: 42vh auto;
+  }
 }
