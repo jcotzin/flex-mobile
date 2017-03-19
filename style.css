@@ -134,16 +134,10 @@ a {
   .fa-circle-o {
     position: absolute;
     left: 43%;
-    top: 74%;
+    top: 75%;
   }
-  
-    .container {
-    max-width: 350px;
-    height: 38vh;
-    margin: 42vh auto;
+
+  .container {
+    max-width: 295px;
   }
-  
-  html {
-    color: blue;
-    font-size:50px;
 }
