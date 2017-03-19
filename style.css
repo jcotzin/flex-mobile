@@ -130,7 +130,7 @@ a {
   flex: 1;
 }
 
-@media all and (max-width: 550px) {
+@media all and (max-width: 600px) {
   .fa-circle-o {
     position: absolute;
     left: 43%;
